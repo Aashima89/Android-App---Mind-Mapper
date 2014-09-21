@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/popup_menu">
+    
+    <Button android:id="@+id/textOption"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/text"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onTextOption"
+        android:drawableLeft="@drawable/atext"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <Button android:id="@+id/textColorOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/textcolor"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onTextColorOption"
+        android:drawableLeft="@drawable/tc"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <Button android:id="@+id/styleOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/style"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onStyleOption"
+        android:drawableLeft="@drawable/style"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+    
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <Button android:id="@+id/backgroundOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/background"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onBackgroundOption"
+        android:drawableLeft="@drawable/bg"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+    
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <Button android:id="@+id/addOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/add"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onAddOption"
+        android:drawableLeft="@drawable/plus_sign"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+  
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <Button android:id="@+id/deleteOption"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/delete"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:onClick="onDeleteOption"
+        android:drawableLeft="@drawable/delete"
+        android:background="@android:color/transparent"
+        android:paddingLeft="2dp" />
+    
+    
+</LinearLayout>

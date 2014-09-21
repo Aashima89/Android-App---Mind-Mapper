@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bg1"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg1_new"
+            android:onClick="onBGSelected"
+            android:tag="bg1" />
+
+        <Button
+            android:id="@+id/bg2"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg2_new"
+            android:onClick="onBGSelected"
+            android:tag="bg2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bg3"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg3_new"
+            android:onClick="onBGSelected"
+            android:tag="bg3" />
+
+        <Button
+            android:id="@+id/bg4"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg4_new"
+            android:onClick="onBGSelected"
+            android:tag="bg4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bg5"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg5_new"
+            android:onClick="onBGSelected"
+            android:tag="bg5" />
+
+        <Button
+            android:id="@+id/bg6"
+            android:layout_width="160dp"
+            android:layout_height="154dp"
+            android:background="@drawable/bg6_new"
+            android:onClick="onBGSelected"
+            android:tag="bg6" />
+    </LinearLayout>
+
+</LinearLayout>

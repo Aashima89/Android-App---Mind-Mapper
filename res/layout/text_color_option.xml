@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/textcolor_popup" 
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    tools:context=".WorkspaceActivity" >
+    
+    
+    
+    	<Button
+            android:id="@+id/red"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="changeTextColor"
+            android:background="#ff0000" 
+            android:textColor="#ff0000"/>
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="changeTextColor"
+            android:background="#008000" 
+            android:textColor="#008000"/>
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="changeTextColor"
+            android:background="#0000ff"
+            android:textColor="#0000ff" />
+        
+        <Button
+            android:id="@+id/magenta"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="changeTextColor"
+            android:background="#FF00FF" 
+            android:textColor="#FF00FF"/>
+    
+        <Button
+            android:id="@+id/black"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="changeTextColor"
+            android:background="#000000" 
+            android:textColor="#000000"
+            android:text="abc"/>
+  
+</LinearLayout>

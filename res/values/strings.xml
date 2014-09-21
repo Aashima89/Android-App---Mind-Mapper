@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MindMapper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_create_note">Create MindMap</string>
+    <string name="button_browse">Browse MindMaps</string>
+	<string name="button_add">Add</string>
+	<string name="edit_message">Edit Note</string>
+	<string name="create">Workspace</string>
+	<string name="no_data">No Data</string>
+	<string name="browse">Browse</string>
+	<string name="text">Text</string>
+	<string name="background">Background</string>
+	<string name="style">Style</string>
+	<string name="textcolor">Text Color</string>
+	<string name="delete">Delete</string>
+	<string name="add">Add Child</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/style_popup" 
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp">
+    
+    
+    <Button
+            android:id="@+id/normal"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="changeStyle"
+            android:text="N"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            />
+    
+    
+    	<Button
+            android:id="@+id/bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="changeStyle"
+            android:text="B"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/italic"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="changeStyle"
+            android:text="I"
+            android:textStyle="italic"
+             android:textColor="#ffffff"
+             />
+
+        <Button
+            android:id="@+id/boldItalic"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="changeStyle"
+            android:text="BI"
+            android:textStyle="bold|italic"
+             android:textColor="#ffffff"
+           />
+    
+  
+</LinearLayout>
